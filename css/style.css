@@ -1,0 +1,86 @@
+/* ESTILOS GERAIS DA PÁGINA */
+body {
+    background-color: #1a1a1a;  /* Cor de fundo da página (cinza bem escuro) */
+    color: #ffffff;             /* Cor do texto (branco) */
+    font-family: Georgia, serif;/* Tipo de letra clássico/estilo antigo */
+    margin: 0;                  /* Tira as margens padrão da página */
+    padding: 0;
+}
+
+/* CABEÇALHO E MENU */
+header {
+    background-color: #000000;  /* Fundo preto no topo */
+    text-align: center;         /* Centraliza o texto no meio */
+    padding: 20px;              /* Espaço interno */
+    border-bottom: 2px solid #8b0000; /* Linha vermelha embaixo do menu */
+}
+
+.logo {
+    font-size: 32px;            /* Tamanho da letra da logo */
+    color: #8b0000;             /* Cor da logo (vermelho escuro) */
+    margin-bottom: 10px;        /* Espaço abaixo da logo */
+}
+
+/* LINKS DO MENU */
+nav a {
+    color: #ffffff;             /* Cor do link (branco) */
+    text-decoration: none;      /* Tira o sublinhado do link */
+    font-size: 18px;            /* Tamanho da letra */
+    margin: 0 15px;             /* Espaço entre os links */
+}
+
+/* Efeito ao passar o mouse no menu (Desafio Extra) */
+nav a:hover {
+    color: #8b0000;             /* Fica vermelho quando passa o mouse */
+}
+
+/* CONTEÚDO PRINCIPAL DAS PÁGINAS */
+main {
+    width: 80%;                 /* O conteúdo ocupa 80% da largura da tela */
+    margin: 20px auto;          /* Centraliza o conteúdo na tela */
+    text-align: center;         /* Centraliza os textos */
+}
+
+h1, h2, h3 {
+    color: #8b0000;             /* Deixa todos os títulos em vermelho escuro */
+}
+
+p {
+    font-size: 16px;            /* Tamanho dos parágrafos */
+    line-height: 1.5;           /* Espaçamento entre as linhas do texto */
+}
+
+/* IMAGENS */
+img {
+    max-width: 100%;            /* Faz a imagem não estourar a tela */
+    height: auto;
+    border: 2px solid #8b0000;  /* Borda vermelha em volta das fotos */
+    border-radius: 8px;         /* Arredonda as pontas das imagens */
+}
+
+/* CARTÕES DE PRODUTOS DA PÁGINA PRODUTOS (Desafio Extra) */
+.card {
+    background-color: #2b2b2b;  /* Fundo cinza do cartão */
+    border: 1px solid #8b0000;  /* Borda vermelha */
+    border-radius: 8px;         /* Cantos arredondados */
+    padding: 15px;              /* Espaço dentro do cartão */
+    margin: 10px;               /* Espaço fora do cartão */
+    display: inline-block;      /* Coloca um cartão ao lado do outro */
+    width: 200px;               /* Largura fixa para cada cartão */
+    vertical-align: top;
+}
+
+.card-price {
+    font-size: 18px;
+    font-weight: bold;          /* Deixa o preço em negrito */
+    color: #8b0000;             /* Preço em vermelho */
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #000000;  /* Fundo preto no rodapé */
+    color: #aaaaaa;             /* Texto cinza claro */
+    text-align: center;         /* Texto centralizado */
+    padding: 15px;              /* Espaço interno */
+    margin-top: 30px;           /* Espaço em cima do rodapé */
+}
