@@ -1,0 +1,46 @@
+# Alt. Moda & Estilo — Site Institucional
+
+Este repositório contém o código-fonte e os recursos visuais do site institucional da **Alt. Moda**, um projeto focado em moda alternativa, atitude e expressão pessoal[cite: 2, 4].
+
+## 📄 Páginas do Projeto
+
+* **Início (`index.html`)**: Apresentação principal da marca com mensagem de boas-vindas e imagem temática da vitrine[cite: 2].
+* **Sobre Nós (`sobre.html`)**: Apresenta a história da marca fundada em 2020 e o compromisso com tecidos sustentáveis e durabilidade[cite: 4].
+* **Produtos (`produtos.html`)**: Catálogo da coleção em destaque exibindo itens em formato de cartões (Jaqueta Couro Classic, Vestido Preto, Corset minimalista e Saia Preta Longa) com descrições e preços[cite: 3].
+* **Contato (`contato.html`)**: Informações de atendimento local na Av. Paulista, telefones, e-mail, redes sociais e horário de funcionamento[cite: 1].
+
+## 🎨 Estilização e Design (CSS)
+
+A folha de estilo `css/style.css` organiza o visual do site utilizando conceitos básicos e eficientes de CSS3[cite: 5]:
+
+* **Paleta Dark/Gótica**: Fundo escuro em `#1a1a1a`[cite: 5], cabeçalho e rodapé em preto `#000000`[cite: 5] e detalhes/destaques em vermelho escuro `#8b0000`[cite: 5].
+* **Tipografia**: Utilização da família de fontes `Georgia, serif` para reforçar a estética clássica e alternativa[cite: 5].
+* **Interatividade**: Efeito `:hover` que altera a cor dos links do menu ao passar o ponteiro do mouse[cite: 5].
+* **Layout de Produtos**: Organização dos itens em cartões (`.card`) com bordas em destaque, cantos arredondados (`border-radius`) e fundo contrastante `#2b2b2b`[cite: 5].
+* **Ajuste de Mídia**: Regras de dimensionamento responsivo (`max-width: 100%`) com bordas temáticas aplicadas às imagens[cite: 5].
+
+## 🖼️ Mídias e Imagens (`assets/`)
+
+* `alt.jpg`: Fotografia de capa temática utilizada na página inicial e na seção "Sobre"[cite: 2, 4].
+* `jaqueta.jpg`: Imagem do produto Jaqueta Couro Classic[cite: 3].
+* `vestidoPreto.jpg`: Imagem do produto Vestido Preto[cite: 3].
+* `corset.jpg`: Imagem do produto Corset minimalista[cite: 3].
+
+## 📂 Estrutura de Arquivos
+
+```text
+meu-site/
+│
+├── index.html       # Página Inicial[cite: 2]
+├── sobre.html       # Página Sobre a empresa[cite: 4]
+├── produtos.html    # Página do catálogo de produtos[cite: 3]
+├── contato.html     # Página com dados de contato[cite: 1]
+│
+├── css/
+│   └── style.css    # Estilização geral em CSS[cite: 5]
+│
+└── assets/          # Imagens locais do projeto[cite: 2, 3, 4]
+    ├── alt.jpg
+    ├── jaqueta.jpg
+    ├── vestidoPreto.jpg
+    └── corset.jpg
