@@ -26,6 +26,31 @@ A folha de estilo `css/style.css` organiza o visual do site utilizando conceitos
 * `vestidoPreto.jpg`: Imagem do produto Vestido Preto[cite: 3].
 * `corset.jpg`: Imagem do produto Corset minimalista[cite: 3].
 
+---
+
+## 🚀 Atualização Recente: Módulo de Avaliação da Loja
+
+Foi adicionada a funcionalidade de **Feedback e Avaliação da Loja**, permitindo que os clientes enviem suas opiniões, sugestões e dados de contato.
+
+### 📌 O que foi implementado:
+
+* **Nova Página (`satisfacao.html`):**
+  - Criação da página dedicada para recepção de feedback dos usuários.
+  - Integração completa com o cabeçalho, menu de navegação e rodapé do site.
+  - Adição da classe `.active` no item de menu *"Avalie nossa loja"* para indicar a página atual.
+
+* **Identidade Visual e Estilização (CSS):**
+  - **Estética Dark/Gothic:** Manutenção da paleta oficial com fundo preto (`#000000`), superfícies cinza escuro (`#1a1a1a`) e detalhes em vermelho escuro (`#8b0000`).
+  - **Efeito Neon Red Glow:** Aplicação de `box-shadow` estilizado com brilho vermelho na caixa do formulário e botões.
+  - **Acessibilidade e Contraste:**
+    - Ajuste de cores nas tags `<legend>` e `<label>` para garantir alta visibilidade sobre o fundo escuro.
+    - Estilização do `<textarea>` e `<input>` com texto em branco (`#ffffff`) e indicação de foco visual (`:focus`).
+  - **Separação de Ações nos Botões:**
+    - `.btn-enviar`: Botão principal com preenchimento em vermelho escuro.
+    - `.btn-apagar`: Botão secundário em fundo preto com bordas e sombra neon vermelha.
+
+---
+
 ## 📂 Estrutura de Arquivos
 
 ```text
@@ -44,3 +69,5 @@ meu-site/
     ├── jaqueta.jpg
     ├── vestidoPreto.jpg
     └── corset.jpg
+
+---
