@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alt. Moda - Avalie nossa loja</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--FORMULÁRIO DE FEEDBACK-->
+            <section> 
+                <h2>Deixe seu feedback</h2>
+                <form>
+                        <fieldset>
+                        <legend>Informações de contato</legend>
+                        <label for = "name">Nome completo:</label>
+                        <input type = "text" id = "name" name = "name"><br>
+
+                        <label for = "idade">Idade:</label>
+                        <input type = "number" id = "idade" name = "idade" ><br>
+
+                        <label for = "email">Email:</label>
+                        <input type = "email" id = "email" name = "email" ><br>
+
+                        <label for = "telefone">Telefone:</label>
+                        <input type = "tel" id = "tel" name = "tel"><br>
+                    </fieldset>
+                </form>
+            </section>
+
+
+            <section>
+                <h2>
+                    Como você avalia sua experiência?
+                </h2>
+                <form>
+                    <input type = "radio" value = "Muito satisfeito" id = "ms" name = "a1">
+                    <label for = "a1">Muito satisfeito</label><br>
+
+                    <input type = "radio" value = "Satisfeito" id = "s" name = "a1">
+                    <label for = "s">Satisfeito</label><br>
+
+                    <input type = "radio" value = "Neutro" id = "n" name = "a1">
+                    <label for = "n">Neutro</label><br>
+
+                    <input type = "radio" value = "Insatisfeito" id = "i" name = "a1">
+                    <label for = "i">Insatisfeito</label><br>
+
+                    <input type = "radio" value = "Muito insatisfeito" id = "mi" name = "a1">
+                    <label for = "mi">Muito insatisfeito</label><br>
+                </form>
+            </section>
+
+            <section>
+                <h2>
+                    Como você conheceu nossa loja?
+                </h2>
+                <form>
+                    <input type = "radio" value = "Instagram" id = "insta" name = "a2">
+                    <label for = "a2">Instagram</label><br>
+
+                    <input type = "radio" value = "Facebook" id = "face" name = "a2">
+                    <label for = "a2">Facebook</label><br>
+
+                    <input type = "radio" value = "Google" id = "gg" name = "a2">
+                    <label for = "a2">Google</label><br>
+
+                    <input type = "radio" value = "Indicação de amigos" id = "ia" name = "a2">
+                    <label for = "a2">Indicação de amigos</label><br>
+
+                    <input type = "radio" value = "YouTube" id = "yt" name = "a2">
+                    <label for = "a2">YouTube</label><br>
+
+                    <input type = "radio" value = "Outro" id = "o" name = "a2">
+                    <label for = "a2">Outro</label><br>
+                </form>
+            </section>
+
+            <section>
+                <h2>
+                    Conte-nos o que podemos melhorar:
+                </h2>
+                <form>
+                    <label for = "comments">Comentarios:</label><br>
+                    <textarea id = "comments" name = "comments" rows = "4" cols = "50" placeholder = "Digite seus comentários aqui"></textarea><br>
+
+                    <button type="submit" class="btn-enviar" onclick = "alert('FEEDBACK ENVIADO')">Enviar avaliação</button>
+                    <button type="reset" class="btn-apagar" onclick = "alert('FORMULÁRIO APAGADO')">Limpar formulário</button>
+                </form>
+            </section>
+</body>
+</html>
